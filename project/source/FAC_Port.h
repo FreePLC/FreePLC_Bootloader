@@ -1,7 +1,7 @@
 #ifndef __FAC_PORT_H__
 #define __FAC_PORT_H__
 
-#include "IH_Driver.h"
+#include "Driver.h"
 
 /*****************************************************************************************************
 * Definition of module wide MACROs / #DEFINE-CONSTANTs - NOT for use in other modules

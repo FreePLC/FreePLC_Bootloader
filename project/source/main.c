@@ -33,8 +33,8 @@
 */
 
 
-#include "IH_Driver.h"
-#include "IH_Task.h"
+#include "Driver.h"
+#include "Task.h"
 #include "core_cm4.h"
 
 /*******************************************************************************
@@ -67,7 +67,7 @@ extern void FAC_Prot(const uint8_t fac_list[], int len);
 */
 int main(void)
 {
-    IH_Task();
+    Task();
     while(1);
 }
 
